@@ -1,0 +1,54 @@
+body {
+   background-image: url(../img/photo-1497294815431-9365093b7331.avif);
+    
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.content {
+    max-width: 960px;
+    width: 35%;
+    height: 50vh;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 2rem;
+    position: relative;
+}
+
+.titulo::after{
+    content: "Ingreso";
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 18px;
+    width: 90%;
+    height: 16%;
+    background: rgb(145, 28, 28);
+    border-radius: 10px;
+    position:absolute;
+    z-index: 1;
+    top: -20px;
+    left: 1.4rem;
+
+}
+
+#parrafo1 {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+#parrafo2 {
+    text-align: center;
+    padding-top: 1.5rem;
+    text-transform: uppercase;
+}
+
+form {
+    padding-top: 2rem;
+}
+
