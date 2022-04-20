@@ -1,0 +1,21 @@
+.container {
+   
+        background-color: rgb(36, 36, 36);
+        width: 15%;
+        height: 20%;
+        margin-left: 1%;
+        margin-top: 1%;
+        padding-bottom: 23%;
+        border-radius: 0.5rem;
+
+}
+
+.button{
+    color: white;
+    font-family: 'Syne Mono', monospace;
+    text-align: left;
+}
+.section{
+    width: 10%;
+    align-items: left ;
+}
